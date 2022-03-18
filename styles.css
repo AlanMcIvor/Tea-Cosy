@@ -13,6 +13,8 @@ body{
 }
 
 .header{
+z-index: 1000;
+background-color: #000;
  display: flex;
  position: fixed;
  width: 100%;
