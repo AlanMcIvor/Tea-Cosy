@@ -1,0 +1,166 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}
+
+/********************************/
+
+body{
+    background-color: #000;
+}
+
+.header{
+ display: flex;
+ position: fixed;
+ width: 100%;
+ justify-content: space-between;
+ height: 69px;
+ border-bottom: 1px solid seashell;
+}
+
+.logo-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    margin: auto 10px;
+    height: 50px;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+    height: 100%;
+    list-style: none;
+}
+
+.nav-bar a{
+
+    font-size: 22px;
+}
+
+/* banner section */
+
+.banner-container{
+    width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+    padding: 69px 0;
+}
+
+.banner-img{
+    opacity: 0.9;
+    position: absolute;
+    height: 700px;
+    width: 1200px;
+}
+
+.banner-text{
+    background: #000;
+    position: relative;
+    top: 50%;
+    text-align: center;
+    font-size: 22px;
+}
+
+.banner-text h4{
+ margin: 8px;
+}
+
+/* tea of the month */
+
+.tea-of-the-month-container{
+    margin-top:100px;
+    text-align: center;
+}
+
+.tea-flex-container{
+    width: 1000px;
+    height: 550px;
+    margin: 0 auto;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.tea-of-the-month-container h2{
+    margin-bottom: 20px;
+}
+
+.card{
+    width: 300px;
+    height: 200px;
+    margin: 20px 10px;
+    text-align: center;
+}
+
+.card-img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.card-text{
+    font-size: 22px;
+    margin: 10px;
+}
+/* locations */
+.location-container{
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+.location-container h2{
+    text-align: center;
+    margin-top: 15px;
+    color: #000;
+}
+
+.location-container img{
+    opacity: 1;
+}
+
+.location-flex-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.location-content{
+    position: absolute;
+    top: 20%;
+   width: 100%;
+   line-height: 2.5;
+   font-size: 22px;
+}
+
+.location-flex-container .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    width: 300px;
+    height: 350px;
+}
+
+.footer-contact{
+    text-align: center;
+   line-height: 2;
+}
+
+.copyright{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
